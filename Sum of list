@@ -1,0 +1,8 @@
+n=int(input())
+l=list(map(int,input().split()))
+result=[]
+for i in l:
+    result.append(i)
+
+total = sum(result)
+print("Sum =", total)

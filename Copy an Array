@@ -1,0 +1,7 @@
+A = list(map(int, input().split()))
+B = int(input(" B: "))
+Arr = []
+
+for i in A:
+    Arr.append(i + B)
+print("Result:", Arr)

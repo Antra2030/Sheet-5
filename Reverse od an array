@@ -1,0 +1,7 @@
+A=list(map(int, input().split()))
+B = []
+
+for i in reversed(A):
+    B.append(i)
+
+print("Reversed Array", B)

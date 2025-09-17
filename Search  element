@@ -1,0 +1,8 @@
+A=list(map(int, input().split()))
+B=int(input("B= "))
+list=[]
+count=0
+if B in A:
+    print(A.count(B))
+else:
+    print("Not Found")
